@@ -1,0 +1,12 @@
+7569984	furashinsuko OMG	Produccion	gerente	5000ac	50000	
+8987565	ana molita	produccion	supervisor	25/3/2015	2000	
+1565988	el arabe	calidad	desarrollador	10/3/2010	1500	
+5456748	pancracio molina	RRHH	auditor	18/4/2012	800	
+9400670	alahu akbar	distribuidor	auditor	12/5/2015	1000	
+6700960	nyan cat	diseño	diseñador	15/1/2018	2000	
+8760200	el rubius	diseño	analista	19/8/2017	1350	
+7890450	vegeta	consultoria	supervisor	20/8/2019	4000	
+5670320	fulanito ito	consultoria	analista	25/3/2017	700	
+7430120	chivo seco	RRHH	analista	19/8/2011	900	
+9540560	chepa candela	produccion	desarrollador	18/4/2012	2500	
+21484337	jose miguel	RRHH	gerente	21/03/1993	50000	

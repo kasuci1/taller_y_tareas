@@ -1,0 +1,11 @@
+7569984 Pedro Diaz  RRHH    Gerente 29/2/2009   1200
+8987565 Luisa García    Producción  Supervisor  25/3/2015 1050
+1565988 Josefa Cérdenas Producción  Desarrollador   18/4/2012 800
+5456748 María González  Calidad Auditor 30/1/2020 780
+9400670 Miguel Diaz Distribución    Auditor 1/11/2010 780
+6700960 Ana Mendez  Calidad Supervisor  25/3/2015 1120
+8760200 Andres López    Diseño  Diseñador   12/5/2015 850
+7890450 Fanny Gonzalez  Consultoría Analista    15/1/2018 690
+5670320 Juan Mendoza    Consultoría Supervisor  19/8/2017 920
+7430120 Jessica Martinez    RRHH    Analista    17/3/2011 870
+9540560 Pablo Valera    Producción  Desarrollador   20/8/2019 800
