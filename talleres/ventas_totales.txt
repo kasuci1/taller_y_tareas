@@ -1,0 +1,4 @@
+ventas totales por categoria
+categoria 1 5369.00
+categoria 2 6701.00
+categoria 3 4691.00
