@@ -1,0 +1,5 @@
+victoria 8 9 7
+leonardo 7 8 9
+miguel 9 9 9
+andres 6 7 8
+jose 7 8 9
