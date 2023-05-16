@@ -11,12 +11,46 @@ typedef struct{
 }student[20];
 
 student stu;
-
+void flush_vec(char vec[]);
 void fill_struct();
 void direct_sort(float prom_vec[],int cont,int index_vec[]);
 void matrix_print(float prom_vec[],int cont, int index_vec[]);
+void fill_file_out(float prom_vec[], int cont, int index_vec[]);
 
+void flush_vec(char vec[]){
+    int i;
+    for(i=0;i<100;i++){
+        vec[i]='\0';
+    }
+}
 
+void fill_file_out(float prom_vec[], int cont, int index_vec[]){
+    FILE *arch;
+    int search=cont-1,i;
+    char temp[100];
+    arch=fopen("results.txt","w");
+    
+    if(arch==NULL){
+        printf("cant open file");
+        exit(1);
+    }
+    flush_vec(temp);
+    for(i=0;i<cont;i++){
+        sprintf(temp,"%i",i);
+        fputs(temp,arch);
+        flush_vec(temp);
+        fputs(" ",arch);
+        fputs(stu[search].name,arch);
+        fputs(" ",arch);
+        sprintf(temp,"%.2f",prom_vec[search]);
+        fputs(temp,arch);
+        fputs("\n",arch);
+        flush_vec(temp);
+        search=search-1;
+
+    }
+    fclose(arch);
+}
 void matrix_print(float prom_vec[],int cont, int index_vec[]){
     int search=cont-1,i;
     printf("-----reformating Matrix Print!----");
@@ -148,7 +182,7 @@ int main(){
     fill_struct();
     fill_vect(prom_vec,index_vec);
     matrix_print(prom_vec,cont,index_vec);
-
+    fill_file_out(prom_vec,cont,index_vec);
 
 
     return 0;
